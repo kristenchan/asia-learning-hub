@@ -1,6 +1,0 @@
-Action ID,Week,Priority,Action,Owner Role,Owner Name,Target Date,Status,Expected Impact
-A-001,2026-W43,High,Deploy preventive maintenance window on highest downtime assets in Plant A Line 2,Maintenance Manager,Alex Morgan,2026-10-29,In Progress,Reduce unplanned downtime by 20 percent
-A-002,2026-W43,High,Enforce incoming quality gate for Drive Train critical components,Quality Manager,Riley Chen,2026-10-30,Planned,Reduce defect PPM by 25 percent
-A-003,2026-W43,High,Issue supplier recovery commitment review with Supplier Apex and Supplier Nova,Supply Chain Manager,Taylor Singh,2026-10-30,Planned,Increase supplier on-time rate above 95 percent
-A-004,2026-W43,Medium,Standardize line handover template for night shift exception tracking,Operations Manager,Jordan Lee,2026-10-31,Planned,Improve shift-to-shift continuity
-A-005,2026-W43,Medium,Launch weekly cross-functional risk review cadence with shared action tracking,Program Manager,Cameron Patel,2026-10-31,In Progress,Shorten issue resolution lead time
