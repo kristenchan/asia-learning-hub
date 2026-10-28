@@ -15,29 +15,18 @@ Your goal is to convert operational data into clear decisions on throughput, qua
 
 ## Files Included
 
-1. `Operations_Data.csv`  
-   Core operational metrics (throughput, downtime, OEE, delivery, and financial impact)
-2. `Quality_and_Supplier_Risk.csv`  
-   Combined quality and supplier risk signals
-3. `Action_Register.csv`  
-   Action owners, due dates, status, and expected impact
-4. `Email_Distribution.csv`  
-   Recipients for Outlook communication
-5. `Weekly_Operations_Report_Template.docx`  
+1. `Manufacturing_Operations_Performance_and_Risk_Demo.xlsx`  
+   Single workbook with four sheets: `Operations_Data`, `Quality_and_Supplier_Risk`, `Action_Register`, and `Email_Distribution`
+2. `Weekly_Operations_Report_Template.docx`  
    Word template to generate the leadership report
 
 ## Complete Demo Steps
 
-1. Create a new Excel workbook.
-2. Import the four CSV files as worksheets:
-   - `Operations_Data`
-   - `Quality_and_Supplier_Risk`
-   - `Action_Register`
-   - `Email_Distribution`
-3. Run the Excel prompts below to generate findings and dashboard outputs.
-4. Open `Weekly_Operations_Report_Template.docx` in Word.
-5. Use the Word prompts below to produce the weekly leadership report and save it.
-6. In Outlook, attach the saved Word report and use the Outlook prompts below.
+1. Open `Manufacturing_Operations_Performance_and_Risk_Demo.xlsx` in Excel.
+2. Run the Excel prompts below to generate findings and dashboard outputs.
+3. Open `Weekly_Operations_Report_Template.docx` in Word.
+4. Use the Word prompts below to produce the weekly leadership report and save it.
+5. In Outlook, attach the saved Word report and use the Outlook prompts below.
 
 ## Data Notes
 
@@ -57,7 +46,7 @@ Summarize this workbook in 30 seconds for senior operations leadership.
 ```
 
 ```text
-Which worksheets are most important for throughput, quality risk, and delivery reliability? Explain in one short paragraph.
+Which sheets in Manufacturing_Operations_Performance_and_Risk_Demo.xlsx are most important for throughput, quality risk, and delivery reliability? Explain in one short paragraph.
 ```
 
 ```text
@@ -67,15 +56,15 @@ List the top columns leadership should monitor every week and why.
 ### Data cleanup and validation
 
 ```text
-Normalize similar values for Plant and Product Family naming (for example: Plant A vs Plant-A, Drive Train vs Drivetrain), and create a cleaned output table.
+In Operations_Data and Quality_and_Supplier_Risk, normalize similar values for Plant and Product Family naming (for example: Plant A vs Plant-A, Drive Train vs Drivetrain), and create a cleaned output table.
 ```
 
 ```text
-Identify duplicate records in Operations_Data and list row references plus recommended correction.
+In Operations_Data, identify duplicate records and list row references plus recommended correction.
 ```
 
 ```text
-Find outliers in Downtime Minutes, Scrap Units, OEE, Defect PPM, and On-Time Delivery %. Rank the top 5 highest-risk records.
+Across Operations_Data and Quality_and_Supplier_Risk, find outliers in Downtime Minutes, Scrap Units, OEE, Defect PPM, and On-Time Delivery %. Rank the top 5 highest-risk records.
 ```
 
 ### Calculated fields
@@ -133,7 +122,7 @@ Use an executive-friendly layout with red, amber, and green indicators.
 ## Copilot in Word
 
 ```text
-Using Weekly_Operations_Report_Template.docx and the Excel workbook, draft a leadership-ready weekly manufacturing operations report.
+Using Weekly_Operations_Report_Template.docx and Manufacturing_Operations_Performance_and_Risk_Demo.xlsx, draft a leadership-ready weekly manufacturing operations report.
 
 Required sections:
 1. Executive Summary
@@ -158,7 +147,7 @@ Write a 150-word executive risk summary for this week, including what improved, 
 ## Copilot in Outlook
 
 ```text
-Draft an email to primary recipients listed in Email_Distribution and CC the functional leads.
+Draft an email to primary recipients listed in the Email_Distribution sheet and CC the functional leads.
 Reference and attach the saved weekly Word report.
 
 Include:
